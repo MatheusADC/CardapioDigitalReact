@@ -13,7 +13,6 @@ export function App() {
           <img src={Restaurante} alt="" className="capa" />
           <Navegacao atualizarPaginaSelecionada={atualizarPaginaSelecionada}/>
           <div className="menu">
-          {/* map permite fazer uma mesma ação para todos os elemento de uma lista */}
             {paginasMenu[paginaSelecionada].map(item => <ItemCardapio nome={item.nome} descricao={item.descricao} preco={item.preco} imagem={item.imagem}/>)}
           </div>
         </>
