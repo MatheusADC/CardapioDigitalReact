@@ -73,5 +73,3 @@ input:checked + label {
   width: 100%;
   object-fit: cover;
 }
-
-/* Sinal &: este sinal não existe no CSS. Ele é usado no Sass, uma linguagem para compilar códigos CSS. */
