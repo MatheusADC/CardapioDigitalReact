@@ -1,8 +1,20 @@
-# React + Vite
+# Description
+This project represents, in a summarized and generic way, a menu created using the JavaScript library, React. Additionally, the JSX syntax extension was used in part of the code, such as in the 'Navegação' component. Finally, the chosen local development server was Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Page
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/63d40228-f245-4ac5-a487-e9e8f188d096)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Commands in the terminal
+### Create project
+```
+npm create vite@latest
+```
+### Run local project
+```
+npm run dev
+```
+<br>
+
+> [!CAUTION]
+> The command above only works in the root directory.
